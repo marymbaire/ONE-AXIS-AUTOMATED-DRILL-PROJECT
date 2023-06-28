@@ -36,68 +36,74 @@ void setup() {
 void loop() {
   limitSwitchStateStart = digitalRead(limitSwitchPinStart);
   limitSwitchStateEnd = digitalRead(limitSwitchPinEnd);
-  limitSwitchStateMiddle= digitalRead(limitSwitchPinMiddle);
+  //limitSwitchStateMiddle= digitalRead(limitSwitchPinMiddle);
+  Serial.println(limitSwitchStateEnd);
   if (limitSwitchStateStart ==HIGH) {
-      digitalWrite(dirPin,HIGH);
-      readtemp();
+      digitalWrite(dirPin,LOW);
+     // readtemp();
  // Enables the motor to move in a particular direction
-    for(int i=0;i<1800;i++){
+    for(int i=0;i<1200;i++){
       digitalWrite(stepPin,HIGH); 
        delayMicroseconds(1800); 
       digitalWrite(stepPin,LOW); 
        delayMicroseconds(1800);
     }
+    //delay(1000);
+    // 	digitalWrite(in1, HIGH);
+    // 	digitalWrite(in2, LOW);
+    //    analogWrite(enA, 200);
+    // digitalWrite(stepPin,HIGH); 
+    // delayMicroseconds(10000); 
+    // digitalWrite(stepPin,LOW); 
+    // delayMicroseconds(10000); 
+    runStepperMotor();
+   // runDCMotor();
+    
   }
-  else if(limitSwitchStateEnd ==HIGH){
-   // for(int i=0;i<1000;i++){
-      readtemp();
-      digitalWrite(stepPin,LOW); 
+   else if(limitSwitchStateEnd ==HIGH){
+     digitalWrite(dirPin,HIGH);
+    for(int i=0;i<200;i++){
+      //readtemp();
+                    digitalWrite(stepPin,HIGH); 
+              delayMicroseconds(1800); 
+              digitalWrite(stepPin,LOW); 
+              delayMicroseconds(1800);
       	digitalWrite(in1,LOW);
 	      digitalWrite(in2, LOW);
         analogWrite(enA, 0);
-        delay(10000);
-  //  }
+        //delay(10000);
+    }
   }
-  else if(limitSwitchStateMiddle ==HIGH){
-            runStepperMotor();
-             runDCMotor();
-             readtemp();
-}
+//   else if(limitSwitchStateMiddle ==HIGH){
+//             runStepperMotor();
+//              runDCMotor();
+//      //        readtemp();
+// }
   else{
             
-            digitalWrite(dirPin,LOW);
+            digitalWrite(dirPin,HIGH);
             analogWrite(enA, 0);
  // Enables the motor to move in a particular direction
-           for(int i=0;i<600;i++){
+           for(int i=0;i<200;i++){
               digitalWrite(stepPin,HIGH); 
               delayMicroseconds(1800); 
               digitalWrite(stepPin,LOW); 
               delayMicroseconds(1800);
-
-    }
-  
-      
-
-       
-      //  for(int j=0;j<10;j++){
-      //      runStepperMotorFast();
-      //      Serial.println(j); 
-      //  } 
-    }
-  
-//  Serial.println(limitSwitchStateStart); 
-  
-}
+   }
+}}
 
 // Function to run the stepper motor
 void runStepperMotor() {
   // Set the stepper motor direction
   digitalWrite(dirPin,LOW);
  // Enables the motor to move in a particular direction
+ for(int j=0;j<600;j++){
     digitalWrite(stepPin,HIGH); 
-    delayMicroseconds(5500); 
+    delayMicroseconds(10000); 
     digitalWrite(stepPin,LOW); 
-    delayMicroseconds(5500); 
+    delayMicroseconds(10000); 
+    runDCMotor();
+ }
 }
 // Function to run the DC motor
 void runDCMotor() {
