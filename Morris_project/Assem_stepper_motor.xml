@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="06/22/23||10:24:16" using="Simscape Multibody Link Version 7.0" from="SolidWorks 31.0.1"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Assem_stepper_motor" uid="Assem_stepper_motor" version="271">
+<AssemblyFile name="Assem_stepper_motor.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="pan cross head_am-3" uid="pan cross head_am-3" entityUid="pan cross head_am*:*B18.6.7M - M3 x 0.5 x 5 Type I Cross Recessed PHMS --5S">
+<Transform>
+<Rotation>0 0 1.0000000000000002 0 -1.0000000000000002 0 1 0 0</Rotation>
+<Translation>0.015094014868932847 0.014234372841795451 0.0016740812062695128</Translation>
+</Transform>
+</Instance>
+<Instance name="pan cross head_am-4" uid="pan cross head_am-4" entityUid="pan cross head_am*:*B18.6.7M - M3 x 0.5 x 5 Type I Cross Recessed PHMS --5S">
+<Transform>
+<Rotation>0 0 1.0000000000000002 0 -1.0000000000000002 0 1 0 0</Rotation>
+<Translation>0.015094014868932849 -0.016765627158204538 0.0016740812062695128</Translation>
+</Transform>
+</Instance>
+<Instance name="instrument ball bearing_68_am-3" uid="instrument ball bearing_68_am-3" entityUid="instrument ball bearing_68_am*:*AFBMA 12.1.4.1 - 0050-11 - 10,DE,AC,10_68">
+<Transform>
+<Rotation>-1.110223024625162e-16 -0.98507659718310592 -0.1721165235593404 0 0.1721165235593404 -0.98507659718310592 1 -1.1414266510555916e-16 0</Rotation>
+<Translation>-0.00040598513106716465 -0.0012656271582045554 0.045574081206269504</Translation>
+</Transform>
+</Instance>
+<Instance name="socket button head cap screw_am-1" uid="socket button head cap screw_am-1" entityUid="socket button head cap screw_am*:*B18.3.4M - 3 x 0.5 x 5 SBHCS --S">
+<Transform>
+<Rotation>0.8336771456399158 0.31968034776696397 0.45031865616391631 0.55225213158274233 -0.48258790614302538 -0.67979886437593273 0 0.81542221462018272 -0.5788666615930792</Rotation>
+<Translation>-0.0084509695864923486 -0.0065948602279780047 0.056924606590056943</Translation>
+</Transform>
+</Instance>
+<Instance name="Body-2" uid="Body-2" entityUid="Body*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.00040598513106716513 -0.0012656271582045589 0.011074081206269511</Translation>
+</Transform>
+</Instance>
+<Instance name="Base_1-1" uid="Base_1-1" grounded="true" entityUid="Base_1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.00040598513106714952 -0.001265627158204545 0.0010740812062695112</Translation>
+</Transform>
+</Instance>
+<Instance name="Back_plate-3" uid="Back_plate-3" entityUid="Back_plate*:*Default">
+<Transform>
+<Rotation>-1 0 -1.8795598319748262e-16 0 1 0 1.8795598319748262e-16 0 -1</Rotation>
+<Translation>-0.00040598513106715733 -0.001265627158204552 0.04507408120626951</Translation>
+</Transform>
+</Instance>
+<Instance name="pan cross head_am-1" uid="pan cross head_am-1" entityUid="pan cross head_am*:*B18.6.7M - M3 x 0.5 x 5 Type I Cross Recessed PHMS --5S">
+<Transform>
+<Rotation>0 0.67904980580704744 -0.73409220213363602 -2.2204460492503131e-16 0.73409220213363624 0.67904980580704732 0.99999999999999989 1.253063765375982e-16 1.9152964910517251e-16</Rotation>
+<Translation>-0.015905985131067144 -0.016765627158204545 0.0016740812062695102</Translation>
+</Transform>
+</Instance>
+<Instance name="pan cross head_am-2" uid="pan cross head_am-2" entityUid="pan cross head_am*:*B18.6.7M - M3 x 0.5 x 5 Type I Cross Recessed PHMS --5S">
+<Transform>
+<Rotation>0 0 1.0000000000000002 0 -1.0000000000000002 0 1 0 0</Rotation>
+<Translation>-0.015905985131067148 0.014234372841795448 0.0016740812062695128</Translation>
+</Transform>
+</Instance>
+<Instance name="Steel_rod-1" uid="Steel_rod-1" entityUid="Steel_rod*:*Default">
+<Transform>
+<Rotation>0.46316505508108047 -0.88627204161687256 0 0.88627204161687256 0.46316505508108047 0 0 0 0.99999999999999978</Rotation>
+<Translation>-0.00040598513106714871 -0.0012656271582045481 0.0010740812062695086</Translation>
+</Transform>
+</Instance>
+<Instance name="instrument ball bearing_68_am-2" uid="instrument ball bearing_68_am-2" entityUid="instrument ball bearing_68_am*:*AFBMA 12.1.4.1 - 0050-11 - 10,DE,AC,10_68">
+<Transform>
+<Rotation>0 0.68578555509578654 -0.72780366337492686 0 0.72780366337492686 0.68578555509578654 1 0 0</Rotation>
+<Translation>-0.00040598513106716551 -0.0012656271582045563 0.0025740812062695143</Translation>
+</Transform>
+</Instance>
+<Instance name="Pulley-1" uid="Pulley-1" entityUid="Pulley*:*Default">
+<Transform>
+<Rotation>0 -0.552252131582742 -0.83367714563991624 0 0.83367714563991624 -0.552252131582742 1 0 0</Rotation>
+<Translation>-0.00040598513106714686 -0.0012656271582045409 0.053924606590056941</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_1-1</Uid>
+</InstancePath>
+<Position>0.021149999999999988 -0.017149999999999999 0.012</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Body-2</Uid>
+</InstancePath>
+<Position>0.021150000000000006 -0.014149999999999989 0.023999999999999997</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_1-1</Uid>
+</InstancePath>
+<Position>0 0 0.01</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Body-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_1-1</Uid>
+</InstancePath>
+<Position>-0.017150000000000006 -0.021149999999999999 0.012</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Body-2</Uid>
+</InstancePath>
+<Position>-0.014149999999999996 -0.021149999999999988 0.023999999999999997</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Body-2</Uid>
+</InstancePath>
+<Position>0 0 0.023999999999999997</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Back_plate-3</Uid>
+</InstancePath>
+<Position>0 0 0.010000000000000002</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Body-2</Uid>
+</InstancePath>
+<Position>-0.021149999999999995 -0.014149999999999989 0.023999999999999997</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Back_plate-3</Uid>
+</InstancePath>
+<Position>0.021150000000000002 -0.017149999999999999 0.012000000000000004</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Body-2</Uid>
+</InstancePath>
+<Position>-0.014149999999999996 0.021150000000000006 0.023999999999999997</Position>
+<Axis>-1.2259529865560475e-16 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Back_plate-3</Uid>
+</InstancePath>
+<Position>-0.017149999999999999 0.021149999999999999 0.011999999999999997</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Back_plate-3</Uid>
+</InstancePath>
+<Position>0 0 0.012000000000000004</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Steel_rod-1</Uid>
+</InstancePath>
+<Position>0 0 0.067999999999999977</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_1-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Steel_rod-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Steel_rod-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>instrument ball bearing_68_am-2</Uid>
+</InstancePath>
+<Position>-0.0014999999999999996 0.0046000000000000043 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Steel_rod-1</Uid>
+</InstancePath>
+<Position>0 0 0.067999999999999977</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>instrument ball bearing_68_am-3</Uid>
+</InstancePath>
+<Position>-0.0206375 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident19">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Back_plate-3</Uid>
+</InstancePath>
+<Position>0 0 -0.0020000000000000018</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>instrument ball bearing_68_am-3</Uid>
+</InstancePath>
+<Position>0.0015000000000000013 0.0053500000000000049 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Steel_rod-1</Uid>
+</InstancePath>
+<Position>0 0 0.067999999999999977</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Pulley-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<UnknownConstraint name="Lock1">
+<ConstraintGeometry geomType="Unknown">
+<InstancePath>
+<Uid>Steel_rod-1</Uid>
+</InstancePath>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="Unknown">
+<InstancePath>
+<Uid>Pulley-1</Uid>
+</InstancePath>
+</ConstraintGeometry>
+</UnknownConstraint>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Pulley-1</Uid>
+</InstancePath>
+<Position>0.0030000000000000027 0 0.0080000000000000019</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>socket button head cap screw_am-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Tangent name="Tangent4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Pulley-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>socket button head cap screw_am-1</Uid>
+</InstancePath>
+<Position>0.0016500000000000004 0.0014999999999999944 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Concentric name="Concentric13">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base_1-1</Uid>
+</InstancePath>
+<Position>-0.015499999999999998 -0.0155 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>pan cross head_am-1</Uid>
+</InstancePath>
+<Position>-0.025399999999999957 0 0</Position>
+<Axis>-0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident20">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_1-1</Uid>
+</InstancePath>
+<Position>-0.015499999999999998 -0.0155 0.0030000000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>pan cross head_am-1</Uid>
+</InstancePath>
+<Position>0.0023999999999999976 0.0014999999999999979 0</Position>
+<Axis>0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric14">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base_1-1</Uid>
+</InstancePath>
+<Position>-0.015499999999999998 0.0155 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>pan cross head_am-2</Uid>
+</InstancePath>
+<Position>-0.025399999999999964 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident21">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_1-1</Uid>
+</InstancePath>
+<Position>-0.015499999999999998 0.0155 0.0030000000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>pan cross head_am-2</Uid>
+</InstancePath>
+<Position>0.0023999999999999994 0.0015000000000000013 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric15">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base_1-1</Uid>
+</InstancePath>
+<Position>0.015499999999999996 -0.0155 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>pan cross head_am-4</Uid>
+</InstancePath>
+<Position>-0.025399999999999964 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident22">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_1-1</Uid>
+</InstancePath>
+<Position>0.0155 -0.0155 0.0030000000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>pan cross head_am-4</Uid>
+</InstancePath>
+<Position>0.0023999999999999994 0.0015000000000000013 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric16">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base_1-1</Uid>
+</InstancePath>
+<Position>0.015499999999999996 0.0155 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>pan cross head_am-3</Uid>
+</InstancePath>
+<Position>-0.025399999999999964 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident23">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_1-1</Uid>
+</InstancePath>
+<Position>0.0155 0.0155 0.0030000000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>pan cross head_am-3</Uid>
+</InstancePath>
+<Position>0.0023999999999999994 0.0015000000000000013 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Back_plate" uid="Back_plate*:*Default" version="127">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Back_plate.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.017576939508482051</Mass>
+<CenterOfMass>0 0 0.0049329647441995958</CenterOfMass>
+<Inertia>2.7387493227141065e-06 2.7387493227141073e-06 5.1476994183922161e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Back_plate_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.89803921568627454" b="0.89803921568627454" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.89803921568627454" b="0.89803921568627454" a="1"/>
+<Specular r="0.44901960784313727" g="0.44901960784313727" b="0.44901960784313727" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Base_1" uid="Base_1*:*Default" version="139">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Base_1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.016536364447501575</Mass>
+<CenterOfMass>0 0 0.0051763602244210396</CenterOfMass>
+<Inertia>2.5767254486006855e-06 2.5767254486006855e-06 4.8755688284312232e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Base_1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.89803921568627454" b="0.89803921568627454" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.89803921568627454" b="0.89803921568627454" a="1"/>
+<Specular r="0.44901960784313727" g="0.44901960784313727" b="0.44901960784313727" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Body" uid="Body*:*Default" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Body.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.016347532470182752</Mass>
+<CenterOfMass>0 0 0.011999999999999997</CenterOfMass>
+<Inertia>4.3465433941083536e-06 4.346543394108357e-06 7.1237236710791672e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Body_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.20000000000000001" g="0.20000000000000001" b="0.20000000000000001" a="1"/>
+<Specular r="0.10000000000000001" g="0.10000000000000001" b="0.10000000000000001" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Pulley" uid="Pulley*:*Default" version="158">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Pulley.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0018361485407028613</Mass>
+<CenterOfMass>0.006361397876818181 -5.6099611905192881e-10 -0.00011170762698505688</CenterOfMass>
+<Inertia>5.4561039570969343e-08 6.1153464861818616e-08 6.2320222443158932e-08 4.0278239599004782e-15 -6.8957129351149594e-10 -6.3873116828592567e-16</Inertia>
+</MassProperties>
+<GeometryFile name="Pulley_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Specular r="0.33333333333333331" g="0.34901960784313724" b="0.38431372549019605" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Steel_rod" uid="Steel_rod*:*Default" version="111">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Steel_rod.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.001303465992435188</Mass>
+<CenterOfMass>0 0 0.033293365532237024</CenterOfMass>
+<Inertia>4.8889254082273648e-07 4.8889254082273648e-07 4.1553881415653107e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Steel_rod_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.45294117647058824" g="0.43372549019607842" b="0.41176470588235292" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="instrument ball bearing_68_am" uid="instrument ball bearing_68_am*:*AFBMA 12.1.4.1 - 0050-11 - 10,DE,AC,10_68" version="1767">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="instrument ball bearing_68_am.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00015529621458257445</Mass>
+<CenterOfMass>-6.0361820995928067e-09 0 0</CenterOfMass>
+<Inertia>2.9489866412006958e-09 1.5798343818549174e-09 1.5798338375980074e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="instrument ball bearing_68_am_AFBMA 12.1.4.1 - 0050-11 - 10-DE-AC-10_68_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.38823529411764707" g="0.3784313725490196" b="0.36862745098039218" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="pan cross head_am" uid="pan cross head_am*:*B18.6.7M - M3 x 0.5 x 5 Type I Cross Recessed PHMS --5S" version="1338">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="pan cross head_am.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>7.6859753802738942e-05</Mass>
+<CenterOfMass>0.0028139284440235686 0 0</CenterOfMass>
+<Inertia>2.0648704313450172e-10 4.0201542316243984e-10 4.0201542316243984e-10 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="pan cross head_am_B18.6.7M - M3 x 0.5 x 5 Type I Cross Recessed PHMS --5S_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.38823529411764707" g="0.3784313725490196" b="0.36862745098039218" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="socket button head cap screw_am" uid="socket button head cap screw_am*:*B18.3.4M - 3 x 0.5 x 5 SBHCS --S" version="1300">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="socket button head cap screw_am.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>5.7937364154148118e-05</Mass>
+<CenterOfMass>0.0026748458571016738 0 0</CenterOfMass>
+<Inertia>1.3175711946121036e-10 2.7155349889477786e-10 2.7155349889477791e-10 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="socket button head cap screw_am_B18.3.4M - 3 x 0.5 x 5 SBHCS --S_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.38823529411764707" g="0.3784313725490196" b="0.36862745098039218" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
